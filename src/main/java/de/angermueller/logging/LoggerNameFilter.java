@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
 /**
- * This filter filters logging events based on their logger names.<br/>
- * Use this to get more (e.g. TRACE-) logging from your own classes while testing and suppress other loggers.
+ * This filter filters logging events based on their logger names.<br>
+ * Use this to get more (e.g. TRACE-) logging from your own classes while testing and suppress other loggers.<br>
  *
  * @author Stefan Angerm&uuml;ller
  * @version 1.0.0
@@ -30,8 +30,8 @@ public class LoggerNameFilter extends Filter<ILoggingEvent> {
     }
 
     /**
-     * Sets the regular expression for the logger name to match.<br/>
-     * Any event with a logger name matching this expression will be accepted by this filter.<br/>
+     * Sets the regular expression for the logger name to match.<br>
+     * Any event with a logger name matching this expression will be accepted by this filter.<br>
      * <b>Default:</b> <tt>.*</tt> (will match any string)
      * @param regex The regular expression, must not be <tt>null</tt>
      * @throws PatternSyntaxException If the expression's syntax is invalid
@@ -51,9 +51,9 @@ public class LoggerNameFilter extends Filter<ILoggingEvent> {
     }
 
     /**
-     * Sets the override level. <br/>
-     * Any event with a level equal or greater this level will be accepted by this filter.<br/>
-     * If this level is set to <tt>null</tt>, the level of events will not have any effect on the result.<br/>
+     * Sets the override level. <br>
+     * Any event with a level equal or greater this level will be accepted by this filter.<br>
+     * If this level is set to <tt>null</tt>, the level of events will not have any effect on the result.<br>
      * <b>Default:</b> Level.WARN
      * @param overrideLevel The level
      */

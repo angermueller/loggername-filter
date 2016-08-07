@@ -7,8 +7,8 @@ import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
- * A simple appender which stores all received events in a queue.<br/>
- * Used for testing.<br/>
+ * A simple appender which stores all received events in a queue.<br>
+ * Used for testing.<br>
  *
  * @author Stefan Angerm&uuml;ller
  */

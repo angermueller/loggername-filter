@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.slf4j.LoggerFactory;
 
 /**
- * Test for LoggerNameFilter.<br/>
+ * Test for LoggerNameFilter.<br>
  *
  * @see de.angermueller.logging.LoggerNameFilter
  * @author Stefan Angerm&uuml;ller
@@ -43,8 +43,9 @@ public class LoggerNameFilterTest {
     }
 
     /**
-     * Build a logger based on a name.<br/>
-     * Add the queue appender and set level to TRACE.
+     * Build a logger based on a name.<br>
+     * Add the queue appender and set level to TRACE.<br>
+     *
      * @param name The name
      * @return Logger with the given name
      */
@@ -68,8 +69,8 @@ public class LoggerNameFilterTest {
     }
 
     /**
-     * Build a LoggerNameFilter with the given overrideLevel and pattern.<br/>
-     * Adds this filter to the QueueAppender and uses the current LoggerContext.<br/>
+     * Build a LoggerNameFilter with the given overrideLevel and pattern.<br>
+     * Adds this filter to the QueueAppender and uses the current LoggerContext.<br>
      *
      * @param overrideLevel The override level
      * @param pattern The pattern
